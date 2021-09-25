@@ -16,7 +16,6 @@
                <ul>
                    <li><a href="#" class="active">Home</a></li>
                    <li><a href="#about-cont">About</a></li>
-                   <li><a href="#about-cont">Education Details</a></li>
                    <li><a href="#project">Project</a></li>
                    <li><a href="#footer">Contact us</a></li>
                </ul>
@@ -93,5 +92,14 @@ Back End: java, MYSQL
         </div>
         <p class="copyright">copyright by Rajan</p>
     </footer>
+    <script type="text/javascript" src="js/JQuery.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$('.toggle').click(function(){
+			$('.toggle').toggleClass('active')
+			$('nav').toggleClass('active')
+		})
+	})
+	</script>
 </body>
 </html>
